@@ -1,0 +1,28 @@
+.footer {
+  color: #000000;
+  background-color: #fafafa;
+  font-size: 16px;
+  margin: 0 auto;
+
+  a {
+      color: #000000;
+
+      &:hover:not(.text-decoration-none) {
+          color: #ff7402;
+          text-decoration: none;
+      }
+
+      &.app-links {
+          font-size: 28px;
+      }
+
+      &.social-links {
+          font-size: 22px;
+      }
+
+      &.disabled {
+          pointer-events: none;
+          cursor: pointer;
+      }
+  }
+}
