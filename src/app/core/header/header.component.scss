@@ -1,8 +1,17 @@
 .header {
-    position: sticky;
-    margin: 0 auto;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    background-color: #fafafa;
+  position: sticky;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #fafafa;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+
+  &:hover {
+      color: #ff7402;
   }
+}
